@@ -1,0 +1,153 @@
+html{
+        background:rgb(229, 221, 221);
+}
+
+*{
+    color:whitesmoke ;
+}
+
+h5{
+    text-align: right;
+}
+
+h1{
+    font-style:oblique;
+    font-size: 70px
+}
+
+p{
+        text-align: start;
+}
+
+
+#nav-link{
+    text-align: end;
+}
+
+img{
+    height:250px;
+    width:200px;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.oval-button {
+    background-color:black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-style: inherit;
+    cursor: pointer;    
+    transition: background-color 0.3s;
+    margin-left: 50%;
+    margin-top: 100%;
+}
+
+
+.oval-button a{
+    text-decoration:none;
+
+}
+
+.logo-container {
+    text-align: start;     
+    margin-top: 20px;
+
+}
+
+.inline-block-element{
+background:linear-gradient(to right, #E85C0D, #FFDD44);; 
+    background-size: cover;                   
+    background-position: justify;              
+    width: 1280px;                             
+    height: 300px; 
+    color: black;
+}
+
+.description{
+    font-size:x-large;
+    color: black;
+}
+
+.title{
+    color: black;
+}
+
+.BEADIFULBLISS{
+    color:black
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.ourservice{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.theme{
+    color:rgb(103, 92, 92);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+.about {
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+.about a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(172, 148, 148);
+    text-align: end;
+}
+
+.oval-button a{
+    background-color:black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: inherit;
+    cursor: pointer;    
+    transition: background-color 0.3s;
+    text-align: end;
+   
+}
+
+.gallery {
+    display: flex;
+    flex-wrap:wrap;             
+    justify-content:center;
+    border-radius: 100px;
+}
+
+.row {
+    display: flex;
+    width: 150%;
+    
+}
+
+.column {
+    flex: 1;                     
+    margin: 30px;
+    margin-left: 50px;
+}
+
+img {
+    width: 300px;                 
+    height: 300PX;               
+    object-fit: cover;
+}
